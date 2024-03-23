@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#one{
+    background-color: lightblue;
+}
+
+#two{
+    background-color: lightcoral;
+}
+
+#three{
+    background-color: lightgoldenrodyellow;
+}
+
+#four{
+    background-color: lightgreen;
+}
+
+#five{
+    background-color: lightseagreen;
+}
+
+#six{
+    background-color: lightsteelblue;
+}
+
+
+/* scrollbar */
+/* Set scrollbar track to transparent */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 15px; /* Width of the scrollbar */
+}
+
+/* Style scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgb(31, 156, 197), rgb(233, 233, 44)); /* Gradient background */
+    border-radius: 1000px; /* Rounded corners */
+    border: 2px solid #fff; /* White border */
+}
+
+/* Change scrollbar corner */
+::-webkit-scrollbar-corner {
+    background-color: #f0f0f0; /* Change corner color */
+}
+
+/* Change scrollbar track when being hovered */
+::-webkit-scrollbar-track:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light grey color */
+}
